@@ -49,8 +49,8 @@ const Header: React.FC = () => {
           </button>
 
           {/* Page title */}
-          <div className="hidden sm:block">
-            <h1 className="text-xl font-bold text-black">{currentPage}</h1>
+          <div className="block">
+            <h1 className="text-lg sm:text-xl font-bold text-black">{currentPage}</h1>
           </div>
         </div>
 
